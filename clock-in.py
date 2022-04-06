@@ -100,6 +100,7 @@ class DaKa(object):
         new_info["province"] = new_info["area"].split(' ')[0]
         new_info["city"] = new_info["area"].split(' ')[1]
         # form change
+        new_info["campus"] = "玉泉校区"
         new_info['jrdqtlqk[]'] = 0
         new_info['jrdqjcqk[]'] = 0
         new_info['sfsqhzjkk'] = 1   # 是否申领杭州健康码
