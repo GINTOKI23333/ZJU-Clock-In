@@ -73,7 +73,7 @@ class DaKa(object):
         ocr = ddddocr.DdddOcr()
 
         # 设置 cookie
-        cookie_dict = {'eai-sess': 'xxxxxxxxxxxxxxxxxxxxxxxxx'}
+        cookie_dict = {'eai-sess': '5cnlcsbgedufqs1fdf9ap01g52'}
         self.sess.cookies = requests.cookies.cookiejar_from_dict(cookie_dict)
         # headers = {
         #     'accept': 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
