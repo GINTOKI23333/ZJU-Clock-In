@@ -135,7 +135,7 @@ class DaKa(object):
         new_info['jcqzrq'] = ""
         new_info['gwszdd'] = ""
         new_info['szgjcs'] = ""
-        new_info['verifyCode'] = self.getCap()
+        # new_info['verifyCode'] = self.getCap()
         self.info = new_info
         return new_info
 
